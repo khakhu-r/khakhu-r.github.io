@@ -1,24 +1,39 @@
 body
 {
   background-color: lavenderblush;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1
+{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   background-image: url("images/ombre.png");
+}
+
+.goldStrip
+{
+  background-image: url("images/ombre.png");
+  color: #cc9900;
+  font-size: 3%;
 }
 
 .header
 {
   text-align: center;
   background-image: url("images/marble.jpg");
+  color: #cc9900;
+  font-family: 'Copperplate';
 }
-
-/* .avatar-bg
-{
-  height: 90%;
-  width: 90%;
-  background-color: #bbb;
-  border-radius: 50%;
-  /* display: inline-block; 
-} */
 
 .avatar
 {
   border-radius: 50%;
+}
+
+.jobDesc
+{
+  font-family: 'Papyrus';
+  color: black;
 }
