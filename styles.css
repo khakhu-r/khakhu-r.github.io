@@ -9,7 +9,21 @@ h1
 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-   background-image: url("images/ombre.png");
+  font-family: Monaco;
+  background-image: url("images/ombre.png");
+}
+
+h2
+{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Monaco;
+  background-image: url("images/ombre.png");
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .goldStrip
@@ -21,10 +35,7 @@ h1
 
 .header
 {
-  text-align: center;
   background-image: url("images/marble.jpg");
-  color: #cc9900;
-  font-family: 'Copperplate';
 }
 
 .avatar
@@ -32,8 +43,8 @@ h1
   border-radius: 50%;
 }
 
-.jobDesc
+.contents
 {
-  font-family: 'Papyrus';
-  color: black;
+  /* color: #cc9900; */
+  /* text-decoration: none; */
 }
