@@ -35,7 +35,7 @@ a {
 
 .header
 {
-  background-image: url("images/marble.png");
+  background-image: url("images/marble.jpg");
 }
 
 .avatar
@@ -71,12 +71,12 @@ a {
 .circle-bg {
   fill: none;
   stroke: #eee;
-  stroke-width: 3.8;
+  stroke-width: 0.5;
 }
 
 .circle {
   fill: none;
-  stroke-width: 2.8;
+  stroke-width: 1;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
 }
@@ -87,17 +87,10 @@ a {
   }
 }
 
-.circular-chart.orange .circle {
-  stroke: #ff9f00;
+.circular-chart .circle {
+  stroke: #cc9900;
 }
 
-.circular-chart.green .circle {
-  stroke: #4CC790;
-}
-
-.circular-chart.blue .circle {
-  stroke: #3c9ee5;
-}
 
 .percentage {
   fill: #666;
