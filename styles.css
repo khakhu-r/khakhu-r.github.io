@@ -5,25 +5,12 @@ body
   text-align: center;
 }
 
-h1
+h1, h2, .contents
 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Monaco;
   background-image: url("images/ombre.png");
-}
-
-h2
-{
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Monaco;
-  background-image: url("images/ombre.png");
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
 }
 
 .goldStrip
@@ -43,12 +30,6 @@ a {
   border-radius: 50%;
 }
 
-.contents
-{
-  /* color: #cc9900; */
-  /* text-decoration: none; */
-}
-
 .contents {
   display: flex;
   justify-content: space-between;
@@ -56,8 +37,8 @@ a {
 
 .contents a {
   width: 100%;
-  padding: 5px;
-  /* border: 1px solid black; */
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /* Beginning of programming skills charts*/
