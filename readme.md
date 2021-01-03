@@ -1,3 +1,3 @@
 Khakhu Ramakuela CV
 
-https://https://khakhu-r.github.io./
+https://khakhu-r.github.io./
