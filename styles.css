@@ -5,7 +5,7 @@ body
   text-align: center;
 }
 
-h1, h2, .contents
+h1, h2, .row h3 , .contents
 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -131,6 +131,7 @@ h1, h2, .contents
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  background-image: url("images/marble.png");
 }
 
 /*End of extra info*/
