@@ -23,6 +23,8 @@ h1, h2, .row h3 , .contents
 .header
 {
   background-image: url("images/marble.png");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .avatar
