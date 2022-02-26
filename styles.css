@@ -1,8 +1,20 @@
 body
 {
-  background-color: lavenderblush;
+  /* background-color: lavenderblush; */
+  /* background-color: #EDE0D4; */
+  /* background-color: #54350D; */
+  background-color: #F1E3D5;
   font-family: Arial;
   text-align: center;
+  /* color: white; */
+  /* color:#774936; */
+  /* color:#8A5A44; */
+  color:#896949;
+}
+
+h3
+{
+  /* color:white; */
 }
 
 h1, h2, .row h3 , .contents
@@ -10,19 +22,25 @@ h1, h2, .row h3 , .contents
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Monaco;
-  background-image: url("images/ombre.png");
+  /* background-image: url("images/ombre.png"); */
+  /* background-color: #B08968; */
+  /* background-color: #E6CCB2; */
+  background-color: #7F5539;
 }
 
 .goldStrip
 {
-  background-image: url("images/ombre.png");
+  /* background-image: url("images/ombre.png"); */
+  background-color: #7F5539;
   color: #cc9900;
   font-size: 3%;
 }
 
 .header
 {
-  background-image: url("images/marble.png");
+  /* background-image: url("images/marble.png"); */
+  background-color: #E6CCB2;
+  /* background-color: #7F5539; */
   background-attachment: fixed;
   background-size: cover;
 }
@@ -82,12 +100,14 @@ h1, h2, .row h3 , .contents
 }
 
 .circular-chart .circle {
-  stroke: #cc9900;
+  /* stroke: #cc9900; */
+  stroke:#7F5539
 }
 
 
 .percentage {
-  fill: #666;
+  /* fill: #666; */
+  fill: #B08968;
   font-family: sans-serif;
   font-size: 0.5em;
   text-anchor: middle;
@@ -132,8 +152,9 @@ h1, h2, .row h3 , .contents
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
-  background-image: url("images/marble.png");
+  /* background-color: #f1f1f1; */
+  background-color: #E6CCB2;
+  /* background-image: url("images/marble.png"); */
 }
 
 /*End of extra info*/
