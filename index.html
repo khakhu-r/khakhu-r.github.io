@@ -3,9 +3,19 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/kr.png">
+    <script>
+      function inView() {
+        var elements = document.getElementsByClassName('circle');
+        for(var i = 0; i < elements.length; i++){
+          const box = elements[i].getBoundingClientRect();
+          if(box.top < window.innerHeight && box.bottom >= 0){
+            elements[i].style.animation="progress 1s ease-out forwards"
+          }
+        }
+      }
+    </script>
   </head>
-  <body>
-    <!-- <div class="goldStrip">Text</div> -->
+  <body onload="setInterval(inView, 1000);">
     <div class="header">
       <title>Khakhu</title>
       <h1>K H A K H U</h1>
@@ -23,13 +33,7 @@
          </h1>
        </span>
     </div>
-    <!-- <div class="goldStrip">Text</div> -->
     </br>
-    <!-- <h2 class="contents"></br>
-      <a href="#WorkExp">Work Experience</a>|
-      <a href="#Education">Education</a>|
-      <a href="#ProgSkills">Programming Skills</a>
-    </h2> -->
     <h2 id="WorkExp">Work Experience</h2>
       <h3>Graduate Cloud Support Associate - Amazon Web Services</h3>
         <p>2022 - Present</p>
@@ -160,7 +164,7 @@
           <div class="card">
             <h3>About me</h3>
             <p>Nationality: South African</p>
-            <p>Date of Birth: 28 April 1999</p>
+            <p>Birth Date: 28 April 1999</p>
             <p>Gender: Female</p>
             <p>Driver's License: C1</p>
           </div>
