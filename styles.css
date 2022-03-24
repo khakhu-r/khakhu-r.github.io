@@ -69,7 +69,7 @@ h1, h2, .row h3 , .contents
 }
 
 .single-chart {
-  width: 33%;
+  width: 8.3%;
   justify-content: space-around ;
 }
 
@@ -90,7 +90,7 @@ h1, h2, .row h3 , .contents
   fill: none;
   stroke-width: 1;
   stroke-linecap: round;
-  animation: progress 1s ease-out forwards;
+  /* animation: progress 1s ease-out forwards; */
 }
 
 @keyframes progress {
